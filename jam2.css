@@ -40,3 +40,10 @@ h1 {
   -webkit-text-stroke: 3px rgb(210, 65, 36);
   text-shadow: 4px 4px 10px rgba(210, 65, 36, 0.4), 4px 4px 20px rgba(210, 45, 26, 0.4), 4px 4px 30px rgba(210, 25, 16, 0.4), 4px 4px 40px rgba(210, 15, 06, 0.4);
 }
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 25px;
+    margin-top: 70%;
+  }
+}
